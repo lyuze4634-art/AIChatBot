@@ -1,0 +1,14 @@
+<?php
+// config.php
+
+define('OPENAI_API_KEY', 'ADD_YOUR_OPENAI_API_KEY_HERE'); // ADD_YOUR_OPENAI_API_KEY_HERE
+
+// ADD_YOUR_OPENAIs_MODEL_HERE
+define('OPENAI_MODEL', 'gpt-5.4-nano');
+
+// SET_SYSTEM_PROMPT_HERE
+define('SYSTEM_PROMPT', <<<PROMPT
+
+
+
+PROMPT);
